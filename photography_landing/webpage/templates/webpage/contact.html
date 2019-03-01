@@ -1,0 +1,27 @@
+{% extends "webpage/base.html" %}
+{% load staticfiles %}
+  {% block bodyblock %}
+    <div class="jumbotron">
+      <div id="contact-me">
+        <p id="con"class="h1">Contact Me</p>
+        <br>
+        <br>
+        <p class="h4">Email:  dave_lutton@gmail.com</p>
+        <p class="h4">Phone:  555-409-9069</p>
+      </div>
+      <br>
+      <br>
+      <div class="row">
+        <div class="col">
+          <img src="{% static 'images/cam-man.jpeg' %}" alt="">
+        </div>
+        <div class="col">
+          <img src="{% static 'images/cam-man2.jpg' %}" alt="">
+        </div>
+        <div class="col">
+          <img src="{% static 'images/cam-man3.jpeg' %}" alt="">
+        </div>
+      </div>
+    </div>
+
+  {% endblock %}

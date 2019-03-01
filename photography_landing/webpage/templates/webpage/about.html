@@ -1,0 +1,35 @@
+{% extends "webpage/base.html" %}
+{% load staticfiles %}
+{% block bodyblock %}
+  <div class="jumbotron">
+    <h1 class="display-2">About Me</h1>
+    <br>
+    <br>
+    <div class="container">
+      <p class="h1">Early Beginnings</p>
+      <div class="row">
+        <div id="fl-1" class="col">
+          <p id="abtxt"class="text-justify">Ever since I was a boy I was obessed
+          with cameras.
+          My mother would let me snap pictures from cool cars to awesome houses.
+          As I grew older with more practice, I began shooting shots of all the
+          cities I traveled to.
+          From <a class="text-danger"href="{% url 'web_application:losangeles' %}">
+            Los Angeles</a>,
+          to <a class="text-danger" href="{% url 'web_application:seattle' %}">Seattle</a>, and
+          <a class="text-danger"href="{% url 'web_application:portland' %}">Portland</a>.
+          Photograghy has been a passion since before I can remember, and I enjoy
+          being able to snap life's
+          precious moments. I pride myself on professionalism and courtesy! Feel
+          free to shoot me an <a class="text-danger"href="{% url 'web_application:contact' %}">email</a> to discuss a photo shoot and
+          pricing.</p>
+        </div>
+        <div id="f1-2"class="col">
+          <img src="{% static 'images/camera.jpeg' %}" class="img-fluid" alt="Responsive image">
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+{% endblock %}

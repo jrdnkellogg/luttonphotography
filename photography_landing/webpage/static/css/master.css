@@ -1,0 +1,153 @@
+body{
+  background-color: #2C3335;
+  color: white;
+
+}
+
+nav {
+  background-color: black;
+  color: white;
+}
+#con{
+  text-align: center;
+}
+
+.dropdown-menu{
+  background-color: black;
+  color: white;
+}
+
+
+.navbar-brand{
+  font-family: 'Srisakdi', cursive;
+}
+
+.dropdown-item{
+  color: white;
+}
+
+.display-4{
+  text-align: center;
+}
+
+a{
+  color: white;
+}
+
+hr{
+  height: 1px;
+  background-color: black;
+  margin-top: 0%;
+}
+
+.jumbotron {
+  background-color: #2C3335;
+}
+#city{
+  font-family: 'Special Elite', cursive;
+}
+
+.col img{
+  width: 100%;
+  height: auto;
+}
+
+.carousel-item{
+  width: 100%;
+  height: auto;
+}
+
+.carousel{
+  justify-content: center;
+}
+
+.home-h{
+  text-align: center;
+}
+
+#fuztech{
+  font-family: 'Special Elite', cursive;
+}
+#contact-me{
+  text-align: center;
+}
+
+#abtxt{
+  font-size: 20px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+* {
+  box-sizing: border-box;
+}
+
+.display-2{
+  text-align: center;
+}
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+
+#list-group-item-anchor{
+  color: black;
+  text-align: center;
+}
+#list-group-item{
+
+}
+
+#lg{
+  justify-content: center;
+  background-color: #2C3335;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .col {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+
+
+#square{
+  width: 100%;
+  height: auto;
+}
+
+#long{
+  width: 100%;
+  height: auto;
+}

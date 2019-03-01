@@ -1,0 +1,32 @@
+{% extends "webpage/base.html" %}
+{% load staticfiles %}
+{% block bodyblock %}
+  <div class="jumbotron" id="city">
+    <h1><strong>Los Angeles</strong></h1>
+    <div class="row">
+      <div class="column" id='column1'>
+        <img id='square' src="{% static 'images/LA-1.jpeg' %}">
+        <img id='square' src="{% static 'images/LA-2.jpeg' %}">
+        <img id='long' src="{% static 'images/LA-6.jpeg' %}">
+      </div>
+      <div class="column" id="column2">
+        <img id='square' src="{% static 'images/LA-5.jpg' %}">
+        <img id='long' src="{% static 'images/LA-4.jpeg' %}">
+        <img id='square' src="{% static 'images/LA-3.jpeg' %}">
+      </div>
+      <div class="column" id="column3">
+        <img id='square' src="{% static 'images/LA-9.jpeg' %}">
+        <img id='long' src="{% static 'images/LA-7.jpeg' %}">
+        <img id='square' src="{% static 'images/LA-8.jpeg' %}">
+      </div>
+      <div class="column" id="column4">
+        <img id='square' src="{% static 'images/LA-10.jpeg' %}">
+        <img id='square' src="{% static 'images/LA-13.jpeg' %}">
+        <img id='long' src="{% static 'images/LA-12.jpeg' %}">
+      </div>
+
+    </div>
+
+  </div>
+
+{% endblock %}

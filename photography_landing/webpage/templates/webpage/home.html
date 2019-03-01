@@ -1,0 +1,54 @@
+{% extends "webpage/base.html" %}
+{% load staticfiles %}
+  {% block bodyblock %}
+    <div class="jumbotron">
+      <h1 class="home-h">Lutton Photograghy</h1>
+      <h6 class="home-h">The Nation's Premier City Photographer</h6>
+      <br>
+      <br>
+      <div class="row">
+        <div class="col" id="home-col">
+          <div id="carouselExampleInterval-1" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-interval="5000">
+                  <img id="car-img"src="{% static 'images/LA-2.jpeg' %}" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item" data-interval="5000">
+                  <img id="car-img" src="{% static 'images/LA-1.jpeg' %}" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item" data-interval="5000">
+                  <img id="car-img" src="{% static 'images/LA-10.jpeg' %}" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item" data-interval="5000">
+                  <img id="car-img"src="{% static 'images/sea-12.jpg' %}" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item" data-interval="5000">
+                  <img id="car-img" src="{% static 'images/sea-1.jpg' %}" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item" data-interval="5000">
+                  <img id="car-img" src="{% static 'images/sea-3.jpeg' %}" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item" data-interval="5000">
+                  <img id="car-img" src="{% static 'images/port-3.jpg' %}" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item" data-interval="5000">
+                  <img id="car-img" src="{% static 'images/port-5.jpg' %}" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item" data-interval="5000">
+                  <img id="car-img" src="{% static 'images/port-6.jpg' %}" class="d-block w-100" alt="...">
+                </div>
+              </div>
+              <a class="carousel-control-prev" href="#carouselExampleInterval" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#carouselExampleInterval" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+          </div>
+        </div>
+      </div>
+  </div>
+
+  {% endblock %}
